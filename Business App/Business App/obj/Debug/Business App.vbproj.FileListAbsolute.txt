@@ -23,3 +23,17 @@ F:\Business App\Business App\obj\Debug\Business App.vbproj.CopyComplete
 F:\Business App\Business App\obj\Debug\Business App.exe
 F:\Business App\Business App\obj\Debug\Business App.xml
 F:\Business App\Business App\obj\Debug\Business App.pdb
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\bin\Debug\Business App.exe.config
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\bin\Debug\Business App.exe
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\bin\Debug\Business App.pdb
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\bin\Debug\Business App.xml
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\obj\Debug\Business App.vbprojAssemblyReference.cache
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\obj\Debug\Business_App.Main_Login.resources
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\obj\Debug\Business_App.Resources.resources
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\obj\Debug\Business App.vbproj.GenerateResource.cache
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\obj\Debug\Business App.vbproj.CopyComplete
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\obj\Debug\Business App.exe
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\obj\Debug\Business App.xml
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\obj\Debug\Business App.pdb
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\angelu.angelu-PC\Documents\GitHub\POS-System-by-OTENS\Business App\Business App\bin\Debug\Bunifu_UI_v1.5.3.xml

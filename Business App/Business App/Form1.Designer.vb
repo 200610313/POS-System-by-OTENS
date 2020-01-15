@@ -27,11 +27,13 @@ Partial Class Main_Login
         Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.BunifuElipse2 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.RightGradientPanel = New Bunifu.Framework.UI.BunifuGradientPanel()
+        Me.username = New Bunifu.Framework.BunifuCustomTextbox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Login_Label = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.USERLOGIN_Label = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.password = New Bunifu.Framework.BunifuCustomTextbox()
         Me.RightGradientPanel.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -54,10 +56,12 @@ Partial Class Main_Login
         Me.RightGradientPanel.BackColor = System.Drawing.Color.Transparent
         Me.RightGradientPanel.BackgroundImage = CType(resources.GetObject("RightGradientPanel.BackgroundImage"), System.Drawing.Image)
         Me.RightGradientPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.RightGradientPanel.Controls.Add(Me.password)
+        Me.RightGradientPanel.Controls.Add(Me.username)
         Me.RightGradientPanel.Controls.Add(Me.PictureBox4)
         Me.RightGradientPanel.Controls.Add(Me.PictureBox3)
         Me.RightGradientPanel.Controls.Add(Me.PictureBox1)
-        Me.RightGradientPanel.Controls.Add(Me.Login_Label)
+        Me.RightGradientPanel.Controls.Add(Me.USERLOGIN_Label)
         Me.RightGradientPanel.Dock = System.Windows.Forms.DockStyle.Right
         Me.RightGradientPanel.GradientBottomLeft = System.Drawing.Color.FromArgb(CType(CType(124, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.RightGradientPanel.GradientBottomRight = System.Drawing.Color.FromArgb(CType(CType(124, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(250, Byte), Integer))
@@ -69,12 +73,21 @@ Partial Class Main_Login
         Me.RightGradientPanel.Size = New System.Drawing.Size(406, 598)
         Me.RightGradientPanel.TabIndex = 9
         '
+        'username
+        '
+        Me.username.BorderColor = System.Drawing.Color.SeaGreen
+        Me.username.Font = New System.Drawing.Font("Roboto Lt", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.username.Location = New System.Drawing.Point(105, 259)
+        Me.username.Name = "username"
+        Me.username.Size = New System.Drawing.Size(204, 28)
+        Me.username.TabIndex = 4
+        '
         'PictureBox4
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(124, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.PictureBox4.BackgroundImage = Global.Business_App.My.Resources.Resources.icons8_checkmark_64
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox4.Location = New System.Drawing.Point(179, 365)
+        Me.PictureBox4.Location = New System.Drawing.Point(318, 264)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(73, 62)
         Me.PictureBox4.TabIndex = 3
@@ -104,17 +117,17 @@ Partial Class Main_Login
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
-        'Login_Label
+        'USERLOGIN_Label
         '
-        Me.Login_Label.AutoSize = True
-        Me.Login_Label.BackColor = System.Drawing.Color.Transparent
-        Me.Login_Label.Font = New System.Drawing.Font("Roboto Th", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Login_Label.ForeColor = System.Drawing.Color.FromArgb(CType(CType(2, Byte), Integer), CType(CType(51, Byte), Integer), CType(CType(111, Byte), Integer))
-        Me.Login_Label.Location = New System.Drawing.Point(94, 188)
-        Me.Login_Label.Name = "Login_Label"
-        Me.Login_Label.Size = New System.Drawing.Size(96, 34)
-        Me.Login_Label.TabIndex = 0
-        Me.Login_Label.Text = "LOGIN"
+        Me.USERLOGIN_Label.AutoSize = True
+        Me.USERLOGIN_Label.BackColor = System.Drawing.Color.Transparent
+        Me.USERLOGIN_Label.Font = New System.Drawing.Font("Roboto Th", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.USERLOGIN_Label.ForeColor = System.Drawing.Color.FromArgb(CType(CType(2, Byte), Integer), CType(CType(51, Byte), Integer), CType(CType(111, Byte), Integer))
+        Me.USERLOGIN_Label.Location = New System.Drawing.Point(119, 202)
+        Me.USERLOGIN_Label.Name = "USERLOGIN_Label"
+        Me.USERLOGIN_Label.Size = New System.Drawing.Size(173, 34)
+        Me.USERLOGIN_Label.TabIndex = 0
+        Me.USERLOGIN_Label.Text = "USER LOGIN"
         '
         'PictureBox2
         '
@@ -125,6 +138,15 @@ Partial Class Main_Login
         Me.PictureBox2.Size = New System.Drawing.Size(660, 597)
         Me.PictureBox2.TabIndex = 7
         Me.PictureBox2.TabStop = False
+        '
+        'password
+        '
+        Me.password.BorderColor = System.Drawing.Color.SeaGreen
+        Me.password.Font = New System.Drawing.Font("Roboto Lt", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.password.Location = New System.Drawing.Point(105, 313)
+        Me.password.Name = "password"
+        Me.password.Size = New System.Drawing.Size(204, 28)
+        Me.password.TabIndex = 5
         '
         'Main_Login
         '
@@ -149,9 +171,11 @@ Partial Class Main_Login
     Friend WithEvents BunifuElipse1 As Bunifu.Framework.UI.BunifuElipse
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents RightGradientPanel As Bunifu.Framework.UI.BunifuGradientPanel
-    Friend WithEvents Login_Label As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents USERLOGIN_Label As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents BunifuElipse2 As Bunifu.Framework.UI.BunifuElipse
     Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents username As Bunifu.Framework.BunifuCustomTextbox
+    Friend WithEvents password As Bunifu.Framework.BunifuCustomTextbox
 End Class
