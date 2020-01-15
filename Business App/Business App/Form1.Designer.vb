@@ -65,7 +65,7 @@ Partial Class Main_Login
         Me.RightGradientPanel.Dock = System.Windows.Forms.DockStyle.Right
         Me.RightGradientPanel.GradientBottomLeft = System.Drawing.Color.FromArgb(CType(CType(124, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.RightGradientPanel.GradientBottomRight = System.Drawing.Color.FromArgb(CType(CType(124, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(250, Byte), Integer))
-        Me.RightGradientPanel.GradientTopLeft = System.Drawing.Color.FromArgb(CType(CType(124, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(250, Byte), Integer))
+        Me.RightGradientPanel.GradientTopLeft = System.Drawing.Color.White
         Me.RightGradientPanel.GradientTopRight = System.Drawing.Color.FromArgb(CType(CType(124, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.RightGradientPanel.Location = New System.Drawing.Point(658, 0)
         Me.RightGradientPanel.Name = "RightGradientPanel"
@@ -76,7 +76,7 @@ Partial Class Main_Login
         'username
         '
         Me.username.BorderColor = System.Drawing.Color.SeaGreen
-        Me.username.Font = New System.Drawing.Font("Roboto Lt", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.username.Font = New System.Drawing.Font("Roboto Th", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.username.Location = New System.Drawing.Point(105, 259)
         Me.username.Name = "username"
         Me.username.Size = New System.Drawing.Size(204, 28)
@@ -84,7 +84,7 @@ Partial Class Main_Login
         '
         'PictureBox4
         '
-        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(124, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(250, Byte), Integer))
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox4.BackgroundImage = Global.Business_App.My.Resources.Resources.icons8_checkmark_64
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.PictureBox4.Location = New System.Drawing.Point(318, 264)
@@ -133,16 +133,16 @@ Partial Class Main_Login
         '
         Me.PictureBox2.BackgroundImage = Global.Business_App.My.Resources.Resources.Pewter_Engineers
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox2.Location = New System.Drawing.Point(-1, 0)
+        Me.PictureBox2.Location = New System.Drawing.Point(2, -2)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(660, 597)
+        Me.PictureBox2.Size = New System.Drawing.Size(657, 600)
         Me.PictureBox2.TabIndex = 7
         Me.PictureBox2.TabStop = False
         '
         'password
         '
         Me.password.BorderColor = System.Drawing.Color.SeaGreen
-        Me.password.Font = New System.Drawing.Font("Roboto Lt", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.password.Font = New System.Drawing.Font("Roboto Th", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.password.Location = New System.Drawing.Point(105, 313)
         Me.password.Name = "password"
         Me.password.Size = New System.Drawing.Size(204, 28)
