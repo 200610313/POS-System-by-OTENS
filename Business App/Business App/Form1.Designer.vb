@@ -28,16 +28,17 @@ Partial Class Main_Login
         Me.BunifuElipse2 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.RightGradientPanel = New Bunifu.Framework.UI.BunifuGradientPanel()
         Me.username = New Bunifu.Framework.BunifuCustomTextbox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.checkmark = New System.Windows.Forms.PictureBox()
+        Me.passwordphoto = New System.Windows.Forms.PictureBox()
+        Me.usernamephoto = New System.Windows.Forms.PictureBox()
         Me.USERLOGIN_Label = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.password = New Bunifu.Framework.BunifuCustomTextbox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.RightGradientPanel.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.checkmark, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.passwordphoto, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.usernamephoto, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -56,11 +57,12 @@ Partial Class Main_Login
         Me.RightGradientPanel.BackColor = System.Drawing.Color.Transparent
         Me.RightGradientPanel.BackgroundImage = CType(resources.GetObject("RightGradientPanel.BackgroundImage"), System.Drawing.Image)
         Me.RightGradientPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.RightGradientPanel.Controls.Add(Me.Panel1)
         Me.RightGradientPanel.Controls.Add(Me.password)
         Me.RightGradientPanel.Controls.Add(Me.username)
-        Me.RightGradientPanel.Controls.Add(Me.PictureBox4)
-        Me.RightGradientPanel.Controls.Add(Me.PictureBox3)
-        Me.RightGradientPanel.Controls.Add(Me.PictureBox1)
+        Me.RightGradientPanel.Controls.Add(Me.checkmark)
+        Me.RightGradientPanel.Controls.Add(Me.passwordphoto)
+        Me.RightGradientPanel.Controls.Add(Me.usernamephoto)
         Me.RightGradientPanel.Controls.Add(Me.USERLOGIN_Label)
         Me.RightGradientPanel.Dock = System.Windows.Forms.DockStyle.Right
         Me.RightGradientPanel.GradientBottomLeft = System.Drawing.Color.FromArgb(CType(CType(124, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(250, Byte), Integer))
@@ -82,40 +84,40 @@ Partial Class Main_Login
         Me.username.Size = New System.Drawing.Size(204, 28)
         Me.username.TabIndex = 4
         '
-        'PictureBox4
+        'checkmark
         '
-        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox4.BackgroundImage = Global.Business_App.My.Resources.Resources.icons8_checkmark_64
-        Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox4.Location = New System.Drawing.Point(318, 264)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(73, 62)
-        Me.PictureBox4.TabIndex = 3
-        Me.PictureBox4.TabStop = False
+        Me.checkmark.BackColor = System.Drawing.Color.Transparent
+        Me.checkmark.BackgroundImage = Global.Business_App.My.Resources.Resources.icons8_checkmark_64
+        Me.checkmark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.checkmark.Location = New System.Drawing.Point(318, 264)
+        Me.checkmark.Name = "checkmark"
+        Me.checkmark.Size = New System.Drawing.Size(73, 62)
+        Me.checkmark.TabIndex = 3
+        Me.checkmark.TabStop = False
         '
-        'PictureBox3
+        'passwordphoto
         '
-        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.BackgroundImage = Global.Business_App.My.Resources.Resources.icons8_password_24
-        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox3.InitialImage = Nothing
-        Me.PictureBox3.Location = New System.Drawing.Point(25, 302)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(74, 50)
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
+        Me.passwordphoto.BackColor = System.Drawing.Color.Transparent
+        Me.passwordphoto.BackgroundImage = Global.Business_App.My.Resources.Resources.icons8_password_24
+        Me.passwordphoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.passwordphoto.InitialImage = Nothing
+        Me.passwordphoto.Location = New System.Drawing.Point(25, 302)
+        Me.passwordphoto.Name = "passwordphoto"
+        Me.passwordphoto.Size = New System.Drawing.Size(74, 50)
+        Me.passwordphoto.TabIndex = 2
+        Me.passwordphoto.TabStop = False
         '
-        'PictureBox1
+        'usernamephoto
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.BackgroundImage = Global.Business_App.My.Resources.Resources.icons8_user_30__1_
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox1.InitialImage = Nothing
-        Me.PictureBox1.Location = New System.Drawing.Point(25, 246)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(74, 50)
-        Me.PictureBox1.TabIndex = 2
-        Me.PictureBox1.TabStop = False
+        Me.usernamephoto.BackColor = System.Drawing.Color.Transparent
+        Me.usernamephoto.BackgroundImage = Global.Business_App.My.Resources.Resources.icons8_user_30__1_
+        Me.usernamephoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.usernamephoto.InitialImage = Nothing
+        Me.usernamephoto.Location = New System.Drawing.Point(25, 246)
+        Me.usernamephoto.Name = "usernamephoto"
+        Me.usernamephoto.Size = New System.Drawing.Size(74, 50)
+        Me.usernamephoto.TabIndex = 2
+        Me.usernamephoto.TabStop = False
         '
         'USERLOGIN_Label
         '
@@ -148,6 +150,13 @@ Partial Class Main_Login
         Me.password.Size = New System.Drawing.Size(204, 28)
         Me.password.TabIndex = 5
         '
+        'Panel1
+        '
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(406, 42)
+        Me.Panel1.TabIndex = 6
+        '
         'Main_Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -161,9 +170,9 @@ Partial Class Main_Login
         Me.Text = "Form1"
         Me.RightGradientPanel.ResumeLayout(False)
         Me.RightGradientPanel.PerformLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.checkmark, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.passwordphoto, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.usernamephoto, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -172,10 +181,11 @@ Partial Class Main_Login
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents RightGradientPanel As Bunifu.Framework.UI.BunifuGradientPanel
     Friend WithEvents USERLOGIN_Label As Bunifu.Framework.UI.BunifuCustomLabel
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents usernamephoto As PictureBox
+    Friend WithEvents passwordphoto As PictureBox
     Friend WithEvents BunifuElipse2 As Bunifu.Framework.UI.BunifuElipse
-    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents checkmark As PictureBox
     Friend WithEvents username As Bunifu.Framework.BunifuCustomTextbox
     Friend WithEvents password As Bunifu.Framework.BunifuCustomTextbox
+    Friend WithEvents Panel1 As Panel
 End Class
